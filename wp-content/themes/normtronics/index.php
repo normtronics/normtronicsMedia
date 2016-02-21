@@ -1,3 +1,20 @@
 <?php get_header() ?>
-<h1>This is the best thing in the work</h1>
+
+  <?php
+    if( have_posts() ):
+      while ( have_posts() ): the_post();
+  ?>
+    <div class="container">
+      <div class="row">
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_content(); ?></p>
+        <hr>
+      </div>
+    </div>
+
+  <?php
+      endwhile;
+    endif;
+  ?>
+
 <?php get_footer(); ?>

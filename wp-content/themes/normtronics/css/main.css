@@ -1,23 +1,21 @@
 body {
   font-family: Source Code Pro;
-  /*background: url('./img/normtronicsLogo.jpeg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  background: #FFEA03;
+  background: #F5AB35;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #212121;
 }
 
 a:hover,
 a:visited,
 a:link,
 a:active {
-  color:#e0e0e0;
+  color:#292929;
   text-decoration: none;
 }
 
 .active {
-  border-bottom: 3px solid #FFEA03;
+  border-bottom: 3px solid #292929;
 }
 
 .header img {
@@ -26,7 +24,6 @@ a:active {
 
 nav {
   width: 100%;
-  background-color: #292929;
   height: 50px;
   margin-top: 50px;
   border-radius: 5px;
@@ -43,13 +40,13 @@ nav ul li {
   display: inline-block;
   width: 100px;
   height: 90%;
-  font-weight: 100;
+  font-weight: normal;
   font-size: 17px;
   padding-top: 13px;
 }
 
 nav ul li:hover{
-  border-bottom: 3px solid #FFEA03;
+  border-bottom: 3px solid #292929;
 }
 
 nav ul li a {
@@ -67,12 +64,7 @@ nav ul li a {
 .main h1 {
   font-size: 90px;
   font-weight: 100;
-  color: #000;
-}
-
-.home {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  color: #212121;
 }
 
 .home img {
